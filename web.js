@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-var readstring = fs.readFileSync('index.html',' encoding');
+var readstring = fs.readFileSync('index.html', [encoding]);
 
 
 app.get('/', function(request, response) {
